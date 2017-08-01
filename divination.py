@@ -6,7 +6,15 @@ secret_number = 42
 kick = input("Enter your number: ")
 kick = int(kick)
 
-if secret_number == kick:
+hit = secret_number == kick
+larger = kick > secret_number
+
+if hit:
     print("You're right")
 else:
-    print("You missed")
+    if larger:
+        print("You missed! His kick was bigger than the secret number")
+    else:
+        print("You missed! His kick was less than the secret number")
+
+print("End of the game")
