@@ -3,7 +3,7 @@
 - [x] Introdução e Instalação do Python 3
 - [x] Lidando com a entrada do usuário
 - [x] Testando valores
-- [ ] A sequência do jogo
+- [x] A sequência do jogo
 - [ ] Iterando de maneira diferente
 - [ ] Gerando números aleatórios
 - [ ] Nível e Pontuação
