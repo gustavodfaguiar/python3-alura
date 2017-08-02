@@ -4,7 +4,7 @@
 - [x] Lidando com a entrada do usuário
 - [x] Testando valores
 - [x] A sequência do jogo
-- [ ] Iterando de maneira diferente
+- [x] Iterando de maneira diferente
 - [ ] Gerando números aleatórios
 - [ ] Nível e Pontuação
 - [ ] Organizando ainda melhor o nosso código
