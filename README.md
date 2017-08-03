@@ -6,7 +6,7 @@
 - [x] A sequência do jogo
 - [x] Iterando de maneira diferente
 - [x] Gerando números aleatórios
-- [ ] Nível e Pontuação
+- [x] Nível e Pontuação
 - [ ] Organizando ainda melhor o nosso código
 - [ ] Comparando Python com C
 - [ ] Preparando o jogo da forca
