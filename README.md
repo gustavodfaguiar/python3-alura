@@ -5,7 +5,7 @@
 - [x] Testando valores
 - [x] A sequência do jogo
 - [x] Iterando de maneira diferente
-- [ ] Gerando números aleatórios
+- [x] Gerando números aleatórios
 - [ ] Nível e Pontuação
 - [ ] Organizando ainda melhor o nosso código
 - [ ] Comparando Python com C
