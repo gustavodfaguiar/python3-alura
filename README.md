@@ -7,7 +7,7 @@
 - [x] Iterando de maneira diferente
 - [x] Gerando números aleatórios
 - [x] Nível e Pontuação
-- [ ] Organizando ainda melhor o nosso código
+- [x] Organizando ainda melhor o nosso código
 - [ ] Comparando Python com C
 - [ ] Preparando o jogo da forca
 - [ ] Manipulando strings
