@@ -1,9 +1,22 @@
+import random
+
 def game():
     print("****************************")
     print("Welcome to the gallows game")
     print("****************************")
 
-    secret_word = "banana".upper()
+    file_gallow = open("words.txt", "r")
+    words = []
+
+    for line in file_gallow:
+        line = line.strip()
+        words.append(line)
+
+    file_gallow.close()
+
+    number = random.randrange(0, len(words))
+    secret_word = words[number].upper()
+
     letters_hit = [ "_" for letter in secret_word ]
 
     hanged = False
@@ -26,7 +39,7 @@ def game():
             errors += 1
 
         hanged = errors == 6
-        hit = "_" not in secret_word
+        hit = "_" not in letters_hit
         print(letters_hit)
 
 

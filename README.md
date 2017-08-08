@@ -13,6 +13,6 @@
 - [x] Manipulando strings
 - [x] Conhecendo e trabalhando com listas
 - [x] Conhecendo e trabalhando com tuplas
-- [ ] Implementando o encerramento do jogo
-- [ ] Escrita e leitura de arquivos
+- [x] Implementando o encerramento do jogo
+- [x] Escrita e leitura de arquivos
 - [ ] Organizando o código em funções
