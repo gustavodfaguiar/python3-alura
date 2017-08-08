@@ -4,6 +4,8 @@ def game():
     print("****************************")
 
     secret_word = "banana"
+    letters_hit = ["_","_","_","_","_","_"]
+
     hanged = False
     hit = False
 
@@ -14,10 +16,10 @@ def game():
 
         for letter in secret_word:
             if letter.upper() == kick.upper():
-                print("I found the letter {} in the {}".format(letter, index))
+                letters_hit[index] = letter
             index = index + 1
 
-        print("playing...")
+        print(letters_hit)
 
 
     print("End of the game")
