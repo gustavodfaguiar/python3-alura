@@ -15,4 +15,4 @@
 - [x] Conhecendo e trabalhando com tuplas
 - [x] Implementando o encerramento do jogo
 - [x] Escrita e leitura de arquivos
-- [ ] Organizando o código em funções
+- [x] Organizando o código em funções

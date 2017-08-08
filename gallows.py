@@ -1,10 +1,11 @@
 import random
 
-def game():
+def print_opening_message():
     print("****************************")
     print("Welcome to the gallows game")
     print("****************************")
 
+def carry_the_secret_word():
     file_gallow = open("words.txt", "r")
     words = []
 
@@ -15,26 +16,44 @@ def game():
     file_gallow.close()
 
     number = random.randrange(0, len(words))
-    secret_word = words[number].upper()
+    return words[number].upper()
 
-    letters_hit = [ "_" for letter in secret_word ]
+def initialize_successfull_lyrics(secret_word):
+    return [ "_" for letter in secret_word ]
+
+def call_for_the_kick():
+    kick = input("What is the letter? ")
+    kick = kick.strip().upper()
+    return kick
+
+def correct_kick_mark(kick, letters_hit, secret_word):
+    index = 0
+    for letter in secret_word:
+        if letter == kick:
+            letters_hit[index] = letter
+        index += 1
+
+def print_success_message():
+    print("You won!!")
+
+def print_lost_message():
+    print("Yout lost!!")
+
+def game():
+    print_opening_message()
+    secret_word = carry_the_secret_word()
+    letters_hit = initialize_successfull_lyrics(secret_word)
+    print(letters_hit)
 
     hanged = False
     hit = False
     errors = 0
 
-    print(letters_hit)
-
     while not hanged and not hit:
-        kick = input("What is the letter? ")
-        kick = kick.strip().upper()
+        kick = call_for_the_kick()
 
         if kick in secret_word:
-            index = 0
-            for letter in secret_word:
-                if letter == kick:
-                    letters_hit[index] = letter
-                index += 1
+            correct_kick_mark(kick, letters_hit, secret_word)
         else:
             errors += 1
 
@@ -44,9 +63,9 @@ def game():
 
 
     if hit:
-        print("You won")
+        print_success_message()
     else:
-        print("You lost")
+        print_lost_message()
 
     print("End of the game")
 
