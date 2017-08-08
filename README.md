@@ -11,8 +11,8 @@
 - [x] Comparando Python com C
 - [x] Preparando o jogo da forca
 - [x] Manipulando strings
-- [ ] Conhecendo e trabalhando com listas
-- [ ] Conhecendo e trabalhando com tuplas
+- [x] Conhecendo e trabalhando com listas
+- [x] Conhecendo e trabalhando com tuplas
 - [ ] Implementando o encerramento do jogo
 - [ ] Escrita e leitura de arquivos
 - [ ] Organizando o código em funções
