@@ -8,8 +8,8 @@
 - [x] Gerando números aleatórios
 - [x] Nível e Pontuação
 - [x] Organizando ainda melhor o nosso código
-- [ ] Comparando Python com C
-- [ ] Preparando o jogo da forca
+- [x] Comparando Python com C
+- [x] Preparando o jogo da forca
 - [ ] Manipulando strings
 - [ ] Conhecendo e trabalhando com listas
 - [ ] Conhecendo e trabalhando com tuplas
