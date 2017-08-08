@@ -10,7 +10,7 @@
 - [x] Organizando ainda melhor o nosso código
 - [x] Comparando Python com C
 - [x] Preparando o jogo da forca
-- [ ] Manipulando strings
+- [x] Manipulando strings
 - [ ] Conhecendo e trabalhando com listas
 - [ ] Conhecendo e trabalhando com tuplas
 - [ ] Implementando o encerramento do jogo
